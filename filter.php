@@ -30,7 +30,7 @@ $countries = array(
 );
 
 // Establish a database connection
-$con = mysqli_connect("localhost", "root", "", "frsdb");
+$con = mysqli_connect("localhost", "root", "", "benjor");
 
 // Check if the connection was successful
 if (mysqli_connect_errno()) {
